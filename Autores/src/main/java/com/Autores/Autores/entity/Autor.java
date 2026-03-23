@@ -1,4 +1,4 @@
-package com.Autores.Autores.Entity;
+package com.Autores.Autores.entity;
 
 import jakarta.persistence.*;
 
@@ -11,9 +11,9 @@ public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name="nome")
+    @Column(name="nome_autor")
     private String nome;
-    @Column(name="nacionalidade")
+    @Column(name="nacionalidade_autor")
     private String nacionalidade;
     private LocalDate dataNascimento;
 
