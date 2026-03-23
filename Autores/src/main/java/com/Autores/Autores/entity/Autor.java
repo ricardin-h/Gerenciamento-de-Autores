@@ -17,9 +17,7 @@ public class Autor {
     private String nacionalidade;
     private LocalDate dataNascimento;
 
-    public Autor(){
-
-    }
+    public Autor(){}
 
     public Long getId() {
         return id;
